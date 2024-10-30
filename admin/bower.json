@@ -1,0 +1,16 @@
+{
+  "name": "better-mobile-ads-by-mobiright",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mobiright/wordpress",
+  "authors": [
+    "mobiright <support@mobiright.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

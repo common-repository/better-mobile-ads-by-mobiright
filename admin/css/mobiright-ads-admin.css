@@ -1,0 +1,140 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+#mobiright a, a:hover, a:active, a:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#mobiright .lg-text {
+    font-size: 18px;
+}
+
+#mobiright .form-row {
+    margin: 40px 0;
+    line-height: 20px;
+}
+
+#mobiright #mobi-form, .tab{
+    min-width: 990px;
+}
+#mobiright h1 {
+    font-weight: 400 !important;
+}
+
+#mobiright .form-col {
+    display: inline-block;
+    width: 80px;
+    vertical-align: top
+}
+#mobiright .form-col-1 {
+    display: inline-block;
+    width: 130px;
+    vertical-align: top
+}
+#mobiright .form-col-2 {
+    display: inline-block;
+    width: 80%;
+    vertical-align: top
+}
+
+#mobiright .form-col-3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right:2%;
+    width: auto;
+    min-width: 251px;
+}
+
+#mobiright .form-col-3:last-of-type {
+    width: auto;
+}
+
+#mobiright .form-col-4 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top
+}
+
+#mobiright .radio-btn-container {
+    text-align: center;
+}
+
+#mobiright .radio-btn-container img {
+    display: block;
+    margin: 10px 20px;
+    opacity: 0.5;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+#mobiright .radio-btn-container input:checked ~ img {
+    opacity: 1;
+}
+
+#mobiright .tab {
+    padding: 0 40px;
+}
+
+#mobiright h2.nav-tab-wrapper, #mobiright h3.nav-tab-wrapper {
+    padding-left: 40px;
+    height: 33px;
+}
+
+#mobiright .nav-tab-wrapper {
+    margin-top: 30px;
+}
+
+#mobiright .spinner {
+    float: none !important;
+}
+#mobiright p,ul,label {
+    font-size: 14px;
+}
+
+#mobiright small {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+#mobiright #save-btn {
+    margin-left: 20px;
+}
+
+.onoffswitch-label, .onoffswitch-switch {
+    border: none !important;
+}
+
+.onoffswitch-switch {
+    width: 22px !important;
+    margin: 2px !important;
+    right: 44px !important;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0 !important;
+}
+
+.onoffswitch-inner:after {
+    content: 'OFF' !important;
+    background-color: #9EA3A8 !important;
+    color: white !important;
+    padding-right: 6px !important;
+    font-size: 18px !important;
+    font-weight: 100 !important;
+}
+
+.onoffswitch-inner:before {
+    content: 'ON' !important;
+    background-color: #3F589A !important;
+    font-size: 18px !important;
+    font-weight: 100 !important;
+}
+
+.onoffswitch #mobiright-status{
+    display: none !important;
+}
